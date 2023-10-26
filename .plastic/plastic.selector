@@ -1,0 +1,4 @@
+repository "MageTech@HatsunoMilkuStudios@cloud"
+  path "/"
+    br "/main"
+    co "/main"
