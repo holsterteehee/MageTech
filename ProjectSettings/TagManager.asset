@@ -13,7 +13,7 @@ TagManager:
   - Background
   - Water
   - UI
-  - 
+  - Test
   - 
   - 
   - 
@@ -40,9 +40,6 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Default
-    uniqueID: 0
-    locked: 0
   - name: Soil
     uniqueID: 1192435731
     locked: 0
@@ -63,4 +60,10 @@ TagManager:
     locked: 0
   - name: Door
     uniqueID: 3951160115
+    locked: 0
+  - name: player
+    uniqueID: 1646158183
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0
