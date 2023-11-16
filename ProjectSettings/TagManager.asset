@@ -40,6 +40,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
   - name: Soil
     uniqueID: 1192435731
     locked: 0
@@ -55,6 +58,9 @@ TagManager:
   - name: Furniture
     uniqueID: 3179268301
     locked: 0
+  - name: Decor
+    uniqueID: 2141093905
+    locked: 0
   - name: NPC
     uniqueID: 4193966143
     locked: 0
@@ -64,6 +70,6 @@ TagManager:
   - name: player
     uniqueID: 1646158183
     locked: 0
-  - name: Default
-    uniqueID: 0
+  - name: UI
+    uniqueID: 3509722901
     locked: 0
