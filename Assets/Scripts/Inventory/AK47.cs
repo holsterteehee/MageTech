@@ -2,16 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Staff : MonoBehaviour, IWeapon
+public class AK47 : MonoBehaviour, IWeapon
 {
+
     private void Update()
     {
         MouseFollowWithOffset();
     }
-
     public void Attack()
     {
-        Debug.Log("Staff Attack");
+        Debug.Log("AK-47 Attack");
         ActiveWeapon.Instance.ToggleIsAttacking(false);
     }
 
