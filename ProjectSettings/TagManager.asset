@@ -43,33 +43,21 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Soil
-    uniqueID: 1192435731
-    locked: 0
   - name: Grass
-    uniqueID: 2214440621
+    uniqueID: 3731024365
     locked: 0
-  - name: Stone
-    uniqueID: 776358971
+  - name: Mountain
+    uniqueID: 3872889951
+    locked: 0
+  - name: Stairs
+    uniqueID: 383044301
+    locked: 0
+  - name: Tree
+    uniqueID: 461170469
     locked: 0
   - name: House
-    uniqueID: 2322620459
+    uniqueID: 1176677991
     locked: 0
-  - name: Furniture
-    uniqueID: 3179268301
-    locked: 0
-  - name: Decor
-    uniqueID: 2141093905
-    locked: 0
-  - name: NPC
-    uniqueID: 4193966143
-    locked: 0
-  - name: Door
-    uniqueID: 3951160115
-    locked: 0
-  - name: player
-    uniqueID: 1646158183
-    locked: 0
-  - name: UI
-    uniqueID: 3509722901
+  - name: Pebbles
+    uniqueID: 2030275509
     locked: 0
