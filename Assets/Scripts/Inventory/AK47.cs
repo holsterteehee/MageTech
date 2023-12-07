@@ -5,17 +5,38 @@ using UnityEngine;
 public class AK47 : MonoBehaviour, IWeapon
 {
 
-    private void Update()
+    [SerializeField] private WeaponInfo weaponInfo;
+    [SerializeField] private GameObject AK47Prefab;
+    [SerializeField] private Transform bulletSpawnPoint;
+
+    readonly int FIRE_HASH = Animator.StringToHash("Fire");
+
+    private Animator myAnimator;
+
+    private void Awake()
+    {
+        myAnimator = GetComponent<Animator>();
+    }
+
+    public void Attack()
+    {
+        myAnimator.SetTrigger(FIRE_HASH);
+        GameObject newBullet = Instantiate(AK47Prefab, bulletSpawnPoint.position, ActiveWeapon.Instance.transform.rotation);
+    }
+
+    public WeaponInfo GetWeaponInfo()
+    {
+        return weaponInfo;
+    }
+
+    void Update()
     {
         MouseFollowWithOffset();
     }
-    public void Attack()
-    {
-        Debug.Log("AK-47 Attack");
-        ActiveWeapon.Instance.ToggleIsAttacking(false);
-    }
 
-    private void MouseFollowWithOffset()
+
+
+private void MouseFollowWithOffset()
     {
         Vector3 mousePos = Input.mousePosition;
         Vector3 playerScreenPoint = Camera.main.WorldToScreenPoint(PlayerController.Instance.transform.position);

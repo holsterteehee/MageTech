@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Wand
   m_EditorClassIdentifier: 
   weaponPrefab: {fileID: 9035492487116480593, guid: b3ab0028b2dd0e640a57d6fe4fd7e48d, type: 3}
-  weaponCooldown: 0.5
+  weaponCooldown: 0.6

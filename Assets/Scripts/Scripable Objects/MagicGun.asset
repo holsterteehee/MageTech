@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: MagicGun
   m_EditorClassIdentifier: 
   weaponPrefab: {fileID: 1442767125809600121, guid: 93e636850be8cf24d9c1e188506bb97e, type: 3}
-  weaponCooldown: 0.3
+  weaponCooldown: 0.5
