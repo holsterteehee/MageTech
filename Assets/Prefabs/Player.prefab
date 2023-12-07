@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6430097652510580618}
   - component: {fileID: 6949982351445801099}
+  - component: {fileID: 5541493434010119410}
   m_Layer: 0
   m_Name: Weapon Collider
   m_TagString: Player
@@ -83,6 +84,19 @@ PolygonCollider2D:
       - {x: 2.7348447, y: -0.10269165}
       - {x: 2.3241873, y: 1.0985641}
   m_UseDelaunayMesh: 0
+--- !u!114 &5541493434010119410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088720975929149234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1073359cde1c6b245a507fe30561a1f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 1
 --- !u!1 &5433022647992993083
 GameObject:
   m_ObjectHideFlags: 0
