@@ -340,7 +340,7 @@ GameObject:
   - component: {fileID: 88956564}
   - component: {fileID: 88956566}
   - component: {fileID: 88956565}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4753,6 +4753,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 1
+--- !u!1 &309179841
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 309179842}
+  m_Layer: 7
+  m_Name: Barriers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &309179842
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309179841}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.6978519, y: -1.7657498, z: -0.29806268}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1846549149}
+  - {fileID: 1453995247}
+  - {fileID: 2141876900}
+  - {fileID: 1790650713}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &412065339
 GameObject:
   m_ObjectHideFlags: 0
@@ -4763,7 +4798,7 @@ GameObject:
   m_Component:
   - component: {fileID: 412065341}
   - component: {fileID: 412065340}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5821,6 +5856,93 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1326186445
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1326186447}
+  - component: {fileID: 1326186446}
+  m_Layer: 0
+  m_Name: A*
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1326186446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326186445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78396926cbbfc4ac3b48fc5fc34a87d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  data:
+    dataString: UEsDBBQAAAgIAACAn+v5SlrnWwIAABIFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VE1z2jAQ/SuMzk0HE9LUvbUOIT0kYUo7ufiyWGusQZY8+giQDP+9K9nGDp2eEO+93X27WvmdCWUbLJw2SyP4o+bIvk1YOLNPk4F8wANstVqLN+w1L4K7Koggan6BE5rwJIRZXaMzoviutjKIpwR6JUpt6gXfYqatswSXIC0SZbQL0Yqg9wk70M9VGkKOdJrdhtMbndLp5ETHApVDM0h7YS9rVV4VEuoGebA8iK9nnfp6FmWKmukUwXihpRS2c8LcsYmdZtBYT32QgAugzmL5oK9QbCsXXI6Dn8vSoussGTjeCUMDarOyH7qdWg121/p6BemjgdnX6KlN+vgPf5VEujS6fujrJtNQw1Wi2P2CYwHWjcY6hu8+GvdqD3IHG4kvFaonvTTaK06kMz6Eeouzu+HvubWswmI34K3VC9A3/7+c0MMpdn/IpKg3gfo8b4G11HHe8erR0M38JMNxMWyXgtDg4o/F37Adb1BH3AtjHVFdlyrY22hvgpQt4sxCN95l2iiMcGe6QQXSHVeUxl1e4QU3KnvB3EN4K13xjuufwEVIhAf9dHpBrfT+fFm20vtHtNWzd1IoHEwH4onmlGml2g0bz6QPW3tTQjEK23rBP64WS9KbBNL5PN2kU0zSL1dQ3Gxmt2l6DUk6v+EJi7snFPUJctUa7cZDt6aG5Ir2rP+ETJYGmrjt3MB+Kd5qPRq5UKVeFwZRPbcZzsbRUBF6lXzBBQ1ojc4JFe+bvedM6mKHPD8nymOni4MzkA9ZctaIV+0CkrMsfjNyFuDzLq8Mvgrch+J9shM7/QVQSwMEFAAACAgAAICf697qEWNtAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSMzTXUVBKL0osyCgGihiCOKWZKSB2tJKhpalhoqWJiWWSpUGqoaWZbmKyaZKRuaWlcaKhpYlpiqFSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAAICf6/lKWudbAgAAEgUAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAAICf697qEWNtAAAAeAAAAAkAJAAAAAAAAAAAAAAAqAIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAABgAwAAAAA=
+    upgradeData: 
+    file_cachedStartup: {fileID: 0}
+    data_cachedStartup: 
+    cacheStartup: 0
+  showNavGraphs: 1
+  showUnwalkableNodes: 1
+  debugMode: 0
+  debugFloor: 0
+  debugRoof: 1
+  manualDebugFloorRoof: 0
+  showSearchTree: 0
+  unwalkableNodeDebugSize: 0.3
+  logPathResults: 1
+  maxNearestNodeDistance: 100
+  scanOnStartup: 1
+  fullGetNearestSearch: 0
+  prioritizeGraphs: 0
+  prioritizeGraphsLimit: 1
+  colorSettings:
+    _SolidColor: {r: 0.11764706, g: 0.4, b: 0.7882353, a: 0.9}
+    _UnwalkableNode: {r: 1, g: 0, b: 0, a: 0.5}
+    _BoundsHandles: {r: 0.29, g: 0.454, b: 0.741, a: 0.9}
+    _ConnectionLowLerp: {r: 0, g: 1, b: 0, a: 0.5}
+    _ConnectionHighLerp: {r: 1, g: 0, b: 0, a: 0.5}
+    _MeshEdgeColor: {r: 0, g: 0, b: 0, a: 0.5}
+    _AreaColors:
+    - {r: 0, g: 0, b: 0, a: 0}
+  tagNames: []
+  heuristic: 2
+  heuristicScale: 1
+  threadCount: 1
+  maxFrameTime: 1
+  batchGraphUpdates: 0
+  graphUpdateBatchingInterval: 0.2
+  euclideanEmbedding:
+    mode: 0
+    seed: 0
+    pivotPointRoot: {fileID: 0}
+    spreadOutCount: 1
+  showGraphs: 1
+--- !u!4 &1326186447
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326186445}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.8610837, y: -5.474557, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1339931397
 GameObject:
   m_ObjectHideFlags: 0
@@ -6129,7 +6251,7 @@ GameObject:
   - component: {fileID: 1453995247}
   - component: {fileID: 1453995246}
   - component: {fileID: 1453995245}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Barrier (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6241,12 +6363,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1453995244}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.56, y: -5.26, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 14.257853, y: -3.4942503, z: 0.29806268}
   m_LocalScale: {x: 1, y: 12.6117, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 309179842}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1681457860
 GameObject:
@@ -6358,7 +6480,7 @@ GameObject:
   - component: {fileID: 1790650713}
   - component: {fileID: 1790650712}
   - component: {fileID: 1790650711}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Barrier (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6470,12 +6592,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1790650710}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.45, y: -11.53, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.2478518, y: -9.76425, z: 0.29806268}
   m_LocalScale: {x: 25.2567, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 309179842}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1846549146
 GameObject:
@@ -6488,7 +6610,7 @@ GameObject:
   - component: {fileID: 1846549149}
   - component: {fileID: 1846549148}
   - component: {fileID: 1846549147}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Barrier
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6600,12 +6722,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1846549146}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.57, y: -5.3458, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -11.872148, y: -3.58005, z: 0.29806268}
   m_LocalScale: {x: 1, y: 12.6117, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 309179842}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1890263128
 PrefabInstance:
@@ -6940,7 +7062,7 @@ GameObject:
   - component: {fileID: 2141876900}
   - component: {fileID: 2141876899}
   - component: {fileID: 2141876898}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Barrier
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7052,12 +7174,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2141876897}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.4816, y: 0.95, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.2162519, y: 2.7157497, z: 0.29806268}
   m_LocalScale: {x: 25.2567, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 309179842}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
@@ -7080,9 +7202,7 @@ SceneRoots:
   - {fileID: 1890263128}
   - {fileID: 185844466}
   - {fileID: 1254464960}
-  - {fileID: 1846549149}
-  - {fileID: 1453995247}
-  - {fileID: 2141876900}
-  - {fileID: 1790650713}
   - {fileID: 649457002}
   - {fileID: 41185534}
+  - {fileID: 1326186447}
+  - {fileID: 309179842}
