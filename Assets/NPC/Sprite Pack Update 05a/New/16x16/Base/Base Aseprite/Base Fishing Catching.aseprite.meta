@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: 0205836ac3fe6fe4eb74060adb3b5752
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Base Fishing Catching_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: -0.021929825}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 166
+      y: 4
+      width: 64
+      height: 228
+    spriteID: 5e9caf53fec82044b9b37295c4f523bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 166, y: 4}
+  - name: Base Fishing Catching_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.021929825}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 166
+      y: 240
+      width: 64
+      height: 228
+    spriteID: f71242c6d1f190a438da1b66dbcc4a4e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 166, y: 240}
+  - name: Base Fishing Catching_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.021929825}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 238
+      y: 4
+      width: 64
+      height: 228
+    spriteID: 422ddebdbc3ac6f44af48d632f600128
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 238, y: 4}
+  - name: Base Fishing Catching_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.021929825}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 238
+      y: 240
+      width: 64
+      height: 228
+    spriteID: c2c3c33096f73e44b95b42ca6d77480b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 238, y: 240}
+  - name: Base Fishing Catching_Frame_4
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.021276595}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 86
+      y: 244
+      width: 68
+      height: 235
+    spriteID: 2b09322256be8ef4a9028146c104f64f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 86, y: 244}
+  - name: Base Fishing Catching_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -0.029288702}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 241
+      width: 70
+      height: 239
+    spriteID: 1902e30d4d1b96245a7c27fc906498ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 241}
+  - name: Base Fishing Catching_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: -0.030172413}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 86
+      y: 4
+      width: 72
+      height: 232
+    spriteID: 12ebea3c9eedc884faa5aee6c32a0958
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 86, y: 4}
+  - name: Base Fishing Catching_Frame_7
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.026200874}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 74
+      height: 229
+    spriteID: 453e074120055ea4ba8c07ceb63ae81f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Base Fishing Catching_Frame_8
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.074418604}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 310
+      y: 4
+      width: 22
+      height: 215
+    spriteID: faa76a489fe4db74fa3fe39fea477eef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 310, y: 4}
+  - name: Base Fishing Catching_Frame_9
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.074418604}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 310
+      y: 227
+      width: 22
+      height: 215
+    spriteID: b7df3d99181b3f94aa6538829acfa704
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 310, y: 227}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1100836842
+    name: Base Fishing Catching
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Base Fishing Catching_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 8
+        y: 5
+        width: 64
+        height: 228
+      spriteId: 5e9caf53fec82044b9b37295c4f523bf
+    - name: Base Fishing Catching_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 8
+        y: 5
+        width: 64
+        height: 228
+      spriteId: f71242c6d1f190a438da1b66dbcc4a4e
+    - name: Base Fishing Catching_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 8
+        y: 5
+        width: 64
+        height: 228
+      spriteId: 422ddebdbc3ac6f44af48d632f600128
+    - name: Base Fishing Catching_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 8
+        y: 5
+        width: 64
+        height: 228
+      spriteId: c2c3c33096f73e44b95b42ca6d77480b
+    - name: Base Fishing Catching_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 6
+        y: 5
+        width: 68
+        height: 235
+      spriteId: 2b09322256be8ef4a9028146c104f64f
+    - name: Base Fishing Catching_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 5
+        y: 7
+        width: 70
+        height: 239
+      spriteId: 1902e30d4d1b96245a7c27fc906498ba
+    - name: Base Fishing Catching_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 4
+        y: 7
+        width: 72
+        height: 232
+      spriteId: 12ebea3c9eedc884faa5aee6c32a0958
+    - name: Base Fishing Catching_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 3
+        y: 6
+        width: 74
+        height: 229
+      spriteId: 453e074120055ea4ba8c07ceb63ae81f
+    - name: Base Fishing Catching_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 29
+        y: 16
+        width: 22
+        height: 215
+      spriteId: faa76a489fe4db74fa3fe39fea477eef
+    - name: Base Fishing Catching_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 29
+        y: 16
+        width: 22
+        height: 215
+      spriteId: b7df3d99181b3f94aa6538829acfa704
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 80, y: 256}

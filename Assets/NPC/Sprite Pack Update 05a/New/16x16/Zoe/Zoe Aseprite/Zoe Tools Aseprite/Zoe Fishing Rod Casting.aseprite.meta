@@ -1,0 +1,556 @@
+fileFormatVersion: 2
+guid: 9e438c7ba92d8194eb840f7a38056542
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Zoe Fishing Rod Casting_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: -0.09223301}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 354
+      y: 4
+      width: 44
+      height: 206
+    spriteID: b2b34ccb0c811b74386326fea5ea1dc9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 354, y: 4}
+  - name: Zoe Fishing Rod Casting_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.1127451}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 406
+      y: 4
+      width: 26
+      height: 204
+    spriteID: 31c3ba7714bacc24f9dc771f3d37ca4d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 406, y: 4}
+  - name: Zoe Fishing Rod Casting_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.1262136}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 440
+      y: 4
+      width: 20
+      height: 206
+    spriteID: 9f76d06e3b0987846a288bfca17e04d3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 440, y: 4}
+  - name: Zoe Fishing Rod Casting_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 406
+      y: 216
+      width: 24
+      height: 208
+    spriteID: 066400d666ecb95419863e4fd3726dfa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 406, y: 216}
+  - name: Zoe Fishing Rod Casting_Frame_4
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.12206573}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 236
+      width: 42
+      height: 213
+    spriteID: bf0d2e869a04fc149b4bdcb18b264b42
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 304, y: 236}
+  - name: Zoe Fishing Rod Casting_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -0.09170306}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 354
+      y: 218
+      width: 24
+      height: 229
+    spriteID: 59060a4f318f301478c5f2180ddeefc2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 354, y: 218}
+  - name: Zoe Fishing Rod Casting_Frame_6
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.08482143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 4
+      width: 42
+      height: 224
+    spriteID: ea2d10645a8192c4a85c515025e42d4d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 304, y: 4}
+  - name: Zoe Fishing Rod Casting_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: -0.086363636}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 232
+      y: 231
+      width: 58
+      height: 220
+    spriteID: 6c6a5354ce29bbd478b49e36e1eb7573
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 232, y: 231}
+  - name: Zoe Fishing Rod Casting_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: -0.07305936}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 232
+      y: 4
+      width: 64
+      height: 219
+    spriteID: 859c1a55683c1c24791b826cf888c684
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 232, y: 4}
+  - name: Zoe Fishing Rod Casting_Frame_9
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.02202643}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 82
+      y: 244
+      width: 68
+      height: 227
+    spriteID: fd2e0b7e54e00ae46a3a8b6087654e71
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 82, y: 244}
+  - name: Zoe Fishing Rod Casting_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: -0.012875536}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 70
+      height: 233
+    spriteID: e81930309ace7e742ba57bc9e08d4fcd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Zoe Fishing Rod Casting_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: -0.017167382}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 245
+      width: 70
+      height: 233
+    spriteID: d910b1c3cc72b5b4fb80506081ea9133
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 245}
+  - name: Zoe Fishing Rod Casting_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: -0.01724138}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 82
+      y: 4
+      width: 70
+      height: 232
+    spriteID: 825019d35f10bd8498bd56c209f69db6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 82, y: 4}
+  - name: Zoe Fishing Rod Casting_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: -0.02202643}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 240
+      width: 64
+      height: 227
+    spriteID: 0f53ec96dad06834687ce4ff0dda7ec3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 240}
+  - name: Zoe Fishing Rod Casting_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: -0.021929825}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 4
+      width: 64
+      height: 228
+    spriteID: 41d7be7bec24fc04999e15f68a3e4e1d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 4}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1190196794
+    name: Zoe Fishing Rod Casting
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Zoe Fishing Rod Casting_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 18
+        y: 19
+        width: 44
+        height: 206
+      spriteId: b2b34ccb0c811b74386326fea5ea1dc9
+    - name: Zoe Fishing Rod Casting_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 27
+        y: 23
+        width: 26
+        height: 204
+      spriteId: 31c3ba7714bacc24f9dc771f3d37ca4d
+    - name: Zoe Fishing Rod Casting_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 30
+        y: 26
+        width: 20
+        height: 206
+      spriteId: 9f76d06e3b0987846a288bfca17e04d3
+    - name: Zoe Fishing Rod Casting_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 28
+        y: 26
+        width: 24
+        height: 208
+      spriteId: 066400d666ecb95419863e4fd3726dfa
+    - name: Zoe Fishing Rod Casting_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 19
+        y: 26
+        width: 42
+        height: 213
+      spriteId: bf0d2e869a04fc149b4bdcb18b264b42
+    - name: Zoe Fishing Rod Casting_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 28
+        y: 21
+        width: 24
+        height: 229
+      spriteId: 59060a4f318f301478c5f2180ddeefc2
+    - name: Zoe Fishing Rod Casting_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 19
+        y: 19
+        width: 42
+        height: 224
+      spriteId: ea2d10645a8192c4a85c515025e42d4d
+    - name: Zoe Fishing Rod Casting_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 11
+        y: 19
+        width: 58
+        height: 220
+      spriteId: 6c6a5354ce29bbd478b49e36e1eb7573
+    - name: Zoe Fishing Rod Casting_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 8
+        y: 16
+        width: 64
+        height: 219
+      spriteId: 859c1a55683c1c24791b826cf888c684
+    - name: Zoe Fishing Rod Casting_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 6
+        y: 5
+        width: 68
+        height: 227
+      spriteId: fd2e0b7e54e00ae46a3a8b6087654e71
+    - name: Zoe Fishing Rod Casting_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 5
+        y: 3
+        width: 70
+        height: 233
+      spriteId: e81930309ace7e742ba57bc9e08d4fcd
+    - name: Zoe Fishing Rod Casting_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 5
+        y: 4
+        width: 70
+        height: 233
+      spriteId: d910b1c3cc72b5b4fb80506081ea9133
+    - name: Zoe Fishing Rod Casting_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 5
+        y: 4
+        width: 70
+        height: 232
+      spriteId: 825019d35f10bd8498bd56c209f69db6
+    - name: Zoe Fishing Rod Casting_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 8
+        y: 5
+        width: 64
+        height: 227
+      spriteId: 0f53ec96dad06834687ce4ff0dda7ec3
+    - name: Zoe Fishing Rod Casting_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 8
+        y: 5
+        width: 64
+        height: 228
+      spriteId: 41d7be7bec24fc04999e15f68a3e4e1d
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 80, y: 256}

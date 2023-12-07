@@ -1,0 +1,388 @@
+fileFormatVersion: 2
+guid: faecc4fb5abab2b47b8453db602abb05
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Base One Hand Weapons_Frame_0
+    originalName: 
+    pivot: {x: 0.04295943, y: -0.12179488}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 419
+      height: 156
+    spriteID: faad4380dbca2cf438bff42b315dbe34
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Base One Hand Weapons_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.12258065}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 346
+      width: 36
+      height: 155
+    spriteID: ba787d1e373cc6749af26f23c739e854
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 346}
+  - name: Base One Hand Weapons_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.12337662}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 108
+      y: 352
+      width: 36
+      height: 154
+    spriteID: bab23b3f103f3bf49b62648a81fa461d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 108, y: 352}
+  - name: Base One Hand Weapons_Frame_3
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.038043477}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 168
+      width: 46
+      height: 184
+    spriteID: 850fe36cb233ba5478131d751c01da74
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 168}
+  - name: Base One Hand Weapons_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -0.021621622}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 58
+      y: 168
+      width: 42
+      height: 185
+    spriteID: e751a2cf827345a448d47fc7e325b5fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 58, y: 168}
+  - name: Base One Hand Weapons_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -0.017045455}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 108
+      y: 168
+      width: 44
+      height: 176
+    spriteID: fb7baf753fdcf1240a677ecb6d800ec5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 108, y: 168}
+  - name: Base One Hand Weapons_Frame_6
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.02247191}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 168
+      width: 32
+      height: 178
+    spriteID: da82d3bb12435be4b98db3ec7cd95edd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 168}
+  - name: Base One Hand Weapons_Frame_7
+    originalName: 
+    pivot: {x: 0.46153846, y: -0.033898305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 244
+      y: 168
+      width: 26
+      height: 177
+    spriteID: 50617faa12ad1f545a2eeaf656ac39c3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 244, y: 168}
+  - name: Base One Hand Weapons_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: -0.04705883}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 168
+      width: 36
+      height: 170
+    spriteID: a6d145896525f434e9a101e8d18bd002
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 168}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1132188967
+    name: Base One Hand Weapons
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Base One Hand Weapons_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 6
+        y: 19
+        width: 419
+        height: 156
+      spriteId: faad4380dbca2cf438bff42b315dbe34
+    - name: Base One Hand Weapons_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 6
+        y: 19
+        width: 36
+        height: 155
+      spriteId: ba787d1e373cc6749af26f23c739e854
+    - name: Base One Hand Weapons_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 6
+        y: 19
+        width: 36
+        height: 154
+      spriteId: bab23b3f103f3bf49b62648a81fa461d
+    - name: Base One Hand Weapons_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 1
+        y: 7
+        width: 46
+        height: 184
+      spriteId: 850fe36cb233ba5478131d751c01da74
+    - name: Base One Hand Weapons_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 3
+        y: 4
+        width: 42
+        height: 185
+      spriteId: e751a2cf827345a448d47fc7e325b5fb
+    - name: Base One Hand Weapons_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 2
+        y: 3
+        width: 44
+        height: 176
+      spriteId: fb7baf753fdcf1240a677ecb6d800ec5
+    - name: Base One Hand Weapons_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 8
+        y: 4
+        width: 32
+        height: 178
+      spriteId: da82d3bb12435be4b98db3ec7cd95edd
+    - name: Base One Hand Weapons_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 12
+        y: 6
+        width: 26
+        height: 177
+      spriteId: 50617faa12ad1f545a2eeaf656ac39c3
+    - name: Base One Hand Weapons_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 6
+        y: 8
+        width: 36
+        height: 170
+      spriteId: a6d145896525f434e9a101e8d18bd002
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 48, y: 192}

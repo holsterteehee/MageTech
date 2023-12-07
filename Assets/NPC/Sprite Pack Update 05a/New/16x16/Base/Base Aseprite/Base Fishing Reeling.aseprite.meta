@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: 098ae5fb43de7a840ba361177029d7cb
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Base Fishing Reeling_Frame_0
+    originalName: 
+    pivot: {x: 0.04040404, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 792
+      height: 256
+    spriteID: 0bfbdb68b07e97c459b1c0e045e31057
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Base Fishing Reeling_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.021929825}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 298
+      y: 268
+      width: 64
+      height: 228
+    spriteID: c725627ddc0d4ec4cb35bbbc0d358c27
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 298, y: 268}
+  - name: Base Fishing Reeling_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.021929825}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 370
+      y: 268
+      width: 64
+      height: 228
+    spriteID: 84b3004af67a9f84daab8b486a12a4b5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 370, y: 268}
+  - name: Base Fishing Reeling_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.021739129}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 154
+      y: 268
+      width: 64
+      height: 230
+    spriteID: cb7ec116d39452546b308c3504d3e380
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 154, y: 268}
+  - name: Base Fishing Reeling_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -0.02164502}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 268
+      width: 66
+      height: 231
+    spriteID: 460f34c004b075f44aeb65a414f38ae2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 268}
+  - name: Base Fishing Reeling_Frame_5
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.021551725}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 268
+      width: 68
+      height: 232
+    spriteID: daa8bf93f0f69d94e920a4fb418f2a6e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 268}
+  - name: Base Fishing Reeling_Frame_6
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.021459227}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 804
+      y: 4
+      width: 68
+      height: 233
+    spriteID: 75f206cba2230da4fb14cbb5506570f7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 804, y: 4}
+  - name: Base Fishing Reeling_Frame_7
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.021459227}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 880
+      y: 4
+      width: 68
+      height: 233
+    spriteID: 7c8bf5ea96db4c1468153c8b02f145fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 880, y: 4}
+  - name: Base Fishing Reeling_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: -0.021551725}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 956
+      y: 4
+      width: 64
+      height: 232
+    spriteID: 4dc5b6e4b8bd8b74caa4d3f73da65c9e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 956, y: 4}
+  - name: Base Fishing Reeling_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: -0.021739129}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 226
+      y: 268
+      width: 64
+      height: 230
+    spriteID: 927188c791aab1446b9e10f1cc34db33
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 226, y: 268}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 2052601487
+    name: Base Fishing Reeling
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Base Fishing Reeling_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 8
+        y: 0
+        width: 792
+        height: 256
+      spriteId: 0bfbdb68b07e97c459b1c0e045e31057
+    - name: Base Fishing Reeling_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 8
+        y: 5
+        width: 64
+        height: 228
+      spriteId: c725627ddc0d4ec4cb35bbbc0d358c27
+    - name: Base Fishing Reeling_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 8
+        y: 5
+        width: 64
+        height: 228
+      spriteId: 84b3004af67a9f84daab8b486a12a4b5
+    - name: Base Fishing Reeling_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 8
+        y: 5
+        width: 64
+        height: 230
+      spriteId: cb7ec116d39452546b308c3504d3e380
+    - name: Base Fishing Reeling_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 7
+        y: 5
+        width: 66
+        height: 231
+      spriteId: 460f34c004b075f44aeb65a414f38ae2
+    - name: Base Fishing Reeling_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 6
+        y: 5
+        width: 68
+        height: 232
+      spriteId: daa8bf93f0f69d94e920a4fb418f2a6e
+    - name: Base Fishing Reeling_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 6
+        y: 5
+        width: 68
+        height: 233
+      spriteId: 75f206cba2230da4fb14cbb5506570f7
+    - name: Base Fishing Reeling_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 6
+        y: 5
+        width: 68
+        height: 233
+      spriteId: 7c8bf5ea96db4c1468153c8b02f145fe
+    - name: Base Fishing Reeling_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 8
+        y: 5
+        width: 64
+        height: 232
+      spriteId: 4dc5b6e4b8bd8b74caa4d3f73da65c9e
+    - name: Base Fishing Reeling_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 8
+        y: 5
+        width: 64
+        height: 230
+      spriteId: 927188c791aab1446b9e10f1cc34db33
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 80, y: 256}

@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: bf028e37cb5a7f84d8c6c7b62d2541d2
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Base Fishing Rod Idle_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: -0.021929825}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 64
+      height: 228
+    spriteID: a3ff2626868b42b4e9017eddd87ccdda
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Base Fishing Rod Idle_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.021929825}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 240
+      width: 64
+      height: 228
+    spriteID: 90faca0e3f66eff4d8fb712b46aaf43d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 240}
+  - name: Base Fishing Rod Idle_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.021929825}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 4
+      width: 64
+      height: 228
+    spriteID: 129faa5f65057a540bee2583ee0e47db
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 4}
+  - name: Base Fishing Rod Idle_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.021929825}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 240
+      width: 64
+      height: 228
+    spriteID: 4647af020fc7623479c680bbb5cdeddd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 240}
+  - name: Base Fishing Rod Idle_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -0.021929825}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 4
+      width: 64
+      height: 228
+    spriteID: b0bb6a18bc974be43a1a65c0442c2eaf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 4}
+  - name: Base Fishing Rod Idle_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -0.021929825}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 240
+      width: 64
+      height: 228
+    spriteID: e50fb40d470641949ba80bccac01624d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 240}
+  - name: Base Fishing Rod Idle_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: -0.021929825}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 220
+      y: 4
+      width: 64
+      height: 228
+    spriteID: 0185bee32332c094c9a9547b2e2dea62
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 220, y: 4}
+  - name: Base Fishing Rod Idle_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: -0.021929825}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 220
+      y: 240
+      width: 64
+      height: 228
+    spriteID: 14cf08d567596ac47a92e17e1aa229be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 220, y: 240}
+  - name: Base Fishing Rod Idle_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: -0.021929825}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 292
+      y: 4
+      width: 64
+      height: 228
+    spriteID: bf44dd29b4fe1994d80357f39c3d34a5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 292, y: 4}
+  - name: Base Fishing Rod Idle_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: -0.021929825}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 292
+      y: 240
+      width: 64
+      height: 228
+    spriteID: 1c56ba906d70cab4aa3e7fd37ab317a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 292, y: 240}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 692382522
+    name: Base Fishing Rod Idle
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Base Fishing Rod Idle_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 8
+        y: 5
+        width: 64
+        height: 228
+      spriteId: a3ff2626868b42b4e9017eddd87ccdda
+    - name: Base Fishing Rod Idle_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 8
+        y: 5
+        width: 64
+        height: 228
+      spriteId: 90faca0e3f66eff4d8fb712b46aaf43d
+    - name: Base Fishing Rod Idle_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 8
+        y: 5
+        width: 64
+        height: 228
+      spriteId: 129faa5f65057a540bee2583ee0e47db
+    - name: Base Fishing Rod Idle_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 8
+        y: 5
+        width: 64
+        height: 228
+      spriteId: 4647af020fc7623479c680bbb5cdeddd
+    - name: Base Fishing Rod Idle_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 8
+        y: 5
+        width: 64
+        height: 228
+      spriteId: b0bb6a18bc974be43a1a65c0442c2eaf
+    - name: Base Fishing Rod Idle_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 8
+        y: 5
+        width: 64
+        height: 228
+      spriteId: e50fb40d470641949ba80bccac01624d
+    - name: Base Fishing Rod Idle_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 8
+        y: 5
+        width: 64
+        height: 228
+      spriteId: 0185bee32332c094c9a9547b2e2dea62
+    - name: Base Fishing Rod Idle_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 8
+        y: 5
+        width: 64
+        height: 228
+      spriteId: 14cf08d567596ac47a92e17e1aa229be
+    - name: Base Fishing Rod Idle_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 8
+        y: 5
+        width: 64
+        height: 228
+      spriteId: bf44dd29b4fe1994d80357f39c3d34a5
+    - name: Base Fishing Rod Idle_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 8
+        y: 5
+        width: 64
+        height: 228
+      spriteId: 1c56ba906d70cab4aa3e7fd37ab317a6
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 80, y: 256}

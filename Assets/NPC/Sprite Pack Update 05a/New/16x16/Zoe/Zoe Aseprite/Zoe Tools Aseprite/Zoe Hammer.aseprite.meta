@@ -1,0 +1,696 @@
+fileFormatVersion: 2
+guid: 3690432f9ac58b74aae9f29c45b7b684
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Zoe Hammer_Frame_0
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.098159514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 170
+      y: 4
+      width: 34
+      height: 163
+    spriteID: 2b7d7683690a0254983f78339767da56
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 170, y: 4}
+  - name: Zoe Hammer_Frame_1
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.09202454}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 170
+      y: 345
+      width: 32
+      height: 163
+    spriteID: 963b44acdbd278a468de9a31121e4ee8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 170, y: 345}
+  - name: Zoe Hammer_Frame_2
+    originalName: 
+    pivot: {x: 0.48484847, y: -0.0925926}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 170
+      y: 175
+      width: 33
+      height: 162
+    spriteID: 9c8e36413e35a9d419b9b4a9403d975e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 170, y: 175}
+  - name: Zoe Hammer_Frame_3
+    originalName: 
+    pivot: {x: 0.48571432, y: -0.09375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 118
+      y: 342
+      width: 35
+      height: 160
+    spriteID: 8ec4d90170a39d6428febe5612864582
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 118, y: 342}
+  - name: Zoe Hammer_Frame_4
+    originalName: 
+    pivot: {x: 0.48648646, y: -0.09316771}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 118
+      y: 173
+      width: 37
+      height: 161
+    spriteID: 281d23037c829384b8a2f9a77d4b838d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 118, y: 173}
+  - name: Zoe Hammer_Frame_5
+    originalName: 
+    pivot: {x: 0.48571432, y: -0.09677419}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 212
+      y: 4
+      width: 35
+      height: 155
+    spriteID: 0327ca48dcf85db4ba95b1663f5d3ba3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 212, y: 4}
+  - name: Zoe Hammer_Frame_6
+    originalName: 
+    pivot: {x: 0.48484847, y: -0.10204081}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 299
+      y: 4
+      width: 33
+      height: 147
+    spriteID: cf0fd001830583d40aa1388c1cff797f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 299, y: 4}
+  - name: Zoe Hammer_Frame_7
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.11111112}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 255
+      y: 309
+      width: 34
+      height: 144
+    spriteID: 743053bcedeff1d4ba799a5e39085337
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 255, y: 309}
+  - name: Zoe Hammer_Frame_8
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.11188811}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 350
+      width: 38
+      height: 143
+    spriteID: cbe62952e46241749ba2dd9c214b2460
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 64, y: 350}
+  - name: Zoe Hammer_Frame_9
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.10416667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 364
+      width: 38
+      height: 144
+    spriteID: 82b1850181d9faa4fa5f9d33a17ec86f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 364}
+  - name: Zoe Hammer_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: -0.11111112}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 255
+      y: 4
+      width: 36
+      height: 144
+    spriteID: 610886ad257688d449550d7734a54d1d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 255, y: 4}
+  - name: Zoe Hammer_Frame_11
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.11034483}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 255
+      y: 156
+      width: 34
+      height: 145
+    spriteID: 5e2ab3064c0448543b002bb62f7fcd8c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 255, y: 156}
+  - name: Zoe Hammer_Frame_12
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.12837838}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 212
+      y: 333
+      width: 34
+      height: 148
+    spriteID: 4235363caf55e4e4d819966080a82685
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 212, y: 333}
+  - name: Zoe Hammer_Frame_13
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.1552795}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 299
+      y: 159
+      width: 28
+      height: 161
+    spriteID: b62b3c3c7e8b52c4690ab483d21467f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 299, y: 159}
+  - name: Zoe Hammer_Frame_14
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.12658226}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 212
+      y: 167
+      width: 32
+      height: 158
+    spriteID: 96ba4f7d7d5b3dd4d9889fa3a81716b4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 212, y: 167}
+  - name: Zoe Hammer_Frame_15
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.082840234}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 4
+      width: 46
+      height: 169
+    spriteID: 2579b02f5ee9964469d6c0216cddaaad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 64, y: 4}
+  - name: Zoe Hammer_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: -0.08139535}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 184
+      width: 50
+      height: 172
+    spriteID: 247c1b37f00e9fc43bac2c52448951b9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 184}
+  - name: Zoe Hammer_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: -0.08720931}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 52
+      height: 172
+    spriteID: 666a84b82062aa7458c3f8e0efae3c20
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Zoe Hammer_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: -0.099378884}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 181
+      width: 44
+      height: 161
+    spriteID: 54b7ea3a9801928469f73591d1f994ab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 64, y: 181}
+  - name: Zoe Hammer_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: -0.10559006}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 118
+      y: 4
+      width: 44
+      height: 161
+    spriteID: ce861362aedf8ce49869e837dde9fa32
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 118, y: 4}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 19630214
+    name: Zoe Hammer
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Zoe Hammer_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 23
+        y: 16
+        width: 34
+        height: 163
+      spriteId: 2b7d7683690a0254983f78339767da56
+    - name: Zoe Hammer_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 24
+        y: 15
+        width: 32
+        height: 163
+      spriteId: 963b44acdbd278a468de9a31121e4ee8
+    - name: Zoe Hammer_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 24
+        y: 15
+        width: 33
+        height: 162
+      spriteId: 9c8e36413e35a9d419b9b4a9403d975e
+    - name: Zoe Hammer_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 23
+        y: 15
+        width: 35
+        height: 160
+      spriteId: 8ec4d90170a39d6428febe5612864582
+    - name: Zoe Hammer_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 22
+        y: 15
+        width: 37
+        height: 161
+      spriteId: 281d23037c829384b8a2f9a77d4b838d
+    - name: Zoe Hammer_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 23
+        y: 15
+        width: 35
+        height: 155
+      spriteId: 0327ca48dcf85db4ba95b1663f5d3ba3
+    - name: Zoe Hammer_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 24
+        y: 15
+        width: 33
+        height: 147
+      spriteId: cf0fd001830583d40aa1388c1cff797f
+    - name: Zoe Hammer_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 23
+        y: 16
+        width: 34
+        height: 144
+      spriteId: 743053bcedeff1d4ba799a5e39085337
+    - name: Zoe Hammer_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 21
+        y: 16
+        width: 38
+        height: 143
+      spriteId: cbe62952e46241749ba2dd9c214b2460
+    - name: Zoe Hammer_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 21
+        y: 15
+        width: 38
+        height: 144
+      spriteId: 82b1850181d9faa4fa5f9d33a17ec86f
+    - name: Zoe Hammer_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 22
+        y: 16
+        width: 36
+        height: 144
+      spriteId: 610886ad257688d449550d7734a54d1d
+    - name: Zoe Hammer_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 23
+        y: 16
+        width: 34
+        height: 145
+      spriteId: 5e2ab3064c0448543b002bb62f7fcd8c
+    - name: Zoe Hammer_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 23
+        y: 19
+        width: 34
+        height: 148
+      spriteId: 4235363caf55e4e4d819966080a82685
+    - name: Zoe Hammer_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 26
+        y: 25
+        width: 28
+        height: 161
+      spriteId: b62b3c3c7e8b52c4690ab483d21467f9
+    - name: Zoe Hammer_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 24
+        y: 20
+        width: 32
+        height: 158
+      spriteId: 96ba4f7d7d5b3dd4d9889fa3a81716b4
+    - name: Zoe Hammer_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 17
+        y: 14
+        width: 46
+        height: 169
+      spriteId: 2579b02f5ee9964469d6c0216cddaaad
+    - name: Zoe Hammer_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 15
+        y: 14
+        width: 50
+        height: 172
+      spriteId: 247c1b37f00e9fc43bac2c52448951b9
+    - name: Zoe Hammer_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 14
+        y: 15
+        width: 52
+        height: 172
+      spriteId: 666a84b82062aa7458c3f8e0efae3c20
+    - name: Zoe Hammer_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 18
+        y: 16
+        width: 44
+        height: 161
+      spriteId: 54b7ea3a9801928469f73591d1f994ab
+    - name: Zoe Hammer_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 18
+        y: 17
+        width: 44
+        height: 161
+      spriteId: ce861362aedf8ce49869e837dde9fa32
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 80, y: 192}

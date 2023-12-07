@@ -40,38 +40,55 @@ public class NPC : MonoBehaviour
         }
     }
 
-    public void zeroText()
+     public void zeroText()
     {
-        DialogueText.text = "";
-        index = 0;
-        DialoguePanel.SetActive(false);
-    }
-
-    IEnumerator Typing()
-    {
-        foreach (char letter in dialogue[index].ToCharArray())
+        if (DialogueText != null)
         {
-            DialogueText.text += letter;
-            yield return new WaitForSeconds(wordSpeed);
+            DialogueText.text = "";
+            index = 0;
+        }
+
+        if (DialoguePanel != null)
+        {
+            DialoguePanel.SetActive(false);
+        }
+
+        if (contButton != null)
+        {
+            contButton.SetActive(false);
         }
     }
 
-    public void NextLine()
+     IEnumerator Typing()
+    {
+        if (DialogueText != null && dialogue != null && index < dialogue.Length)
+        {
+            foreach (char letter in dialogue[index].ToCharArray())
+            {
+                if (DialogueText != null)
+                {
+                    DialogueText.text += letter;
+                    yield return new WaitForSeconds(wordSpeed);
+                }
+            }
+        }
+    }
+
+ public void NextLine()
     {
         contButton.SetActive(false);
-        if(index < dialogue.Length - 1)
+
+        if (index < dialogue.Length - 1)
         {
             index++;
             DialogueText.text = "";
             StartCoroutine(Typing());
         }
-
         else
         {
             zeroText();
         }
     }
-
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
