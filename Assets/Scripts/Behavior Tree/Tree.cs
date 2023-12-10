@@ -7,7 +7,7 @@ namespace BehaviorTree
     public abstract class Tree : MonoBehaviour
     {
 
-        private Node root = null;
+        public Node root = null;
 
 
         // Start is called before the first frame update

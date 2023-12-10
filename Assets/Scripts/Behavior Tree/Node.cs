@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-
+using System.Diagnostics; 
 
 namespace BehaviorTree
 {
@@ -43,6 +43,18 @@ namespace BehaviorTree
             ctx[key] = val;
         }
 
+        public void SetUpperMostParentData(string key, object val) {
+            Node node = parent;
+            while (node != null) {
+                if (node.parent is null) {
+                    break;
+                }
+                node = node.parent;
+            }
+
+            node.SetData(key, val);
+
+        }
         public object GetData(string key)
         {
             if (ctx.ContainsKey(key))
