@@ -31,10 +31,11 @@ public class PlayerHealth : MonoBehaviour
     }
 
     private IEnumerator GetKnocked(Transform enemy, float knockBackThrust) {
-        GetComponent<PlayerController>().enabled = false;
+        PlayerController pc = GetComponent<PlayerController>();
+        if(pc) pc.enabled = false;
         knockback.GetKnockedBack(enemy.transform, knockBackThrust);
         yield return new WaitForSeconds(.2f);
-        GetComponent<PlayerController>().enabled = true;
+        if (pc) pc.enabled = true;
     }
 
     private IEnumerator CheckDetectDeathRoutine()

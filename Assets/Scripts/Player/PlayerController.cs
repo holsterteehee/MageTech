@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.SceneManagement;
 using UnityEngine;
 
 public class PlayerController : Singleton<PlayerController>
@@ -24,7 +25,7 @@ public class PlayerController : Singleton<PlayerController>
     protected override void Awake()
     {
         base.Awake();
-        knockback = new Knockback();
+        knockback = gameObject.GetComponent<Knockback>();
         playerControls = new PlayerControls();
         rb = GetComponent<Rigidbody2D>();
         myAnimator = GetComponent<Animator>();

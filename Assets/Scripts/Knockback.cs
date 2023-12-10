@@ -8,7 +8,7 @@ public class Knockback : MonoBehaviour
     public BehaviorTree.Tree enemyBT;
     public bool GettingKnockedBack { get; private set; }
 
-    [SerializeField] private float knockBackTime = .2f;
+    [SerializeField] private float knockBackTime = 0.2f;
 
     private Rigidbody2D rb;
 
