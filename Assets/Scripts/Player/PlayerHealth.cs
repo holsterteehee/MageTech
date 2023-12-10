@@ -26,6 +26,7 @@ public class PlayerHealth : MonoBehaviour
     public void TakeDamage(Transform enemy, int dmg = 1) { 
         Health -= dmg;
         StartCoroutine(GetKnocked(enemy, knockBackThrust));
+        StartCoroutine(IFrame());
         StartCoroutine(flash.FlashRoutine());
         StartCoroutine(CheckDetectDeathRoutine());
     }
@@ -42,6 +43,13 @@ public class PlayerHealth : MonoBehaviour
     {
         yield return new WaitForSeconds(flash.GetRestoreMatTime());
         DetectDeath();
+    }
+
+    private IEnumerator IFrame() {
+        var bc = GetComponent<BoxCollider2D>();
+        if (bc) bc.enabled = false;
+        yield return new WaitForSeconds(0.5f);
+        if (bc) bc.enabled = true;
     }
 
     public void DetectDeath()
