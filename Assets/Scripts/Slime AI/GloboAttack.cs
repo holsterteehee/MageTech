@@ -22,6 +22,8 @@ public class GloboAttack : BehaviorTree.Node
 
     private float attackRange;
     private LayerMask playerMask;
+
+    private Vector3 dir;
     public GloboAttack(Node parent) { 
         this.parent = parent;
         dashTimer = 0.0f;
@@ -39,8 +41,8 @@ public class GloboAttack : BehaviorTree.Node
 
     public override NodeState Eval()
     {
-        Collider2D player = Physics2D.OverlapCircle(self.transform.position, attackRange, playerMask);
-        if (player is null) {
+        Collider2D playerObj = Physics2D.OverlapCircle(self.transform.position, attackRange, playerMask);
+        if (playerObj is null) {
             return NodeState.FAILURE;
         }
         SetUpperMostParentData("IsAttacking", isAttacking);
@@ -56,39 +58,41 @@ public class GloboAttack : BehaviorTree.Node
             isAttacking = false;
             return NodeState.FAILURE;
         }
-
-        Dash();
+        if (!isAttacking) {
+            dir = player.position - self.position;
+        }
+        if (!onCooldown)
+        {
+            state = NodeState.RUNNING;
+            Dash();
+        }
+        else {
+            state = NodeState.SUCCESS;
+            
+            cooldownTimer += Time.fixedDeltaTime;
+            if (cooldownTimer >= attackCooldown)
+            {
+                onCooldown = false;
+                cooldownTimer = 0.0f;
+            }
+        }
+ 
+        
         return state;
     }
 
     public void Dash()
     {
-        state = NodeState.RUNNING;
-        if (!onCooldown)
-        {
-            isAttacking = true;
-            while (dashTimer < dashTime) {
-                Vector3 dir = player.position - self.position;
-                rb.velocity = new Vector2(dir.normalized.x * dashSpeed, dir.normalized.y * dashSpeed);
-                dashTimer += Time.deltaTime;
-                
-            }
+        isAttacking = true;
+        
+        rb.velocity = new Vector2(dir.normalized.x * dashSpeed, dir.normalized.y * dashSpeed);
+        dashTimer += Time.fixedDeltaTime;
 
-            if (dashTimer >= dashTime) {
-                onCooldown = true;
-                dashTimer = 0.0f;
-                state = NodeState.SUCCESS;
-            }
-        }
-        else
-        {
+        if (dashTimer >= dashTime) {
             isAttacking = false;
-            cooldownTimer += Time.deltaTime;
-            if (cooldownTimer < attackCooldown) {
-                onCooldown = false;
-                cooldownTimer = 0.0f;
-            }
-            
+            onCooldown = true;
+            dashTimer = 0.0f;
+            state = NodeState.SUCCESS;
         }
     }
 }

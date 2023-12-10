@@ -47,7 +47,7 @@ public class GloboPatrol : BehaviorTree.Node
 
         wanderPoint = new GameObject();
         spawnPoint = new GameObject();
-        
+        SetUpperMostParentData("SpawnPoint", spawnPoint);
         toSpawn = false;
 
         aiPath = (AIPath)GetData("AIPath");
@@ -65,6 +65,7 @@ public class GloboPatrol : BehaviorTree.Node
         aiPath.canMove = (hurt is not null ? !(bool)hurt : true) && (isAttacking is not null ? !(bool)isAttacking : true);
 
         if (!aiPath.pathPending && (aiPath.reachedEndOfPath || !aiPath.hasPath)) {
+            SetUpperMostParentData("Patrolling", true);
             randomPointInRadius();
             aiDest.target = wanderPoint.transform;
             aiPath.SearchPath();

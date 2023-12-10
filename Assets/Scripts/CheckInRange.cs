@@ -25,8 +25,10 @@ public class CheckInRange : BehaviorTree.Node
     public override NodeState Eval()
     {
         DrawWireCircle(self.position, detectionRange, Color.green);
+        
         Collider2D playerObj = Physics2D.OverlapCircle(self.position, detectionRange, playerMask);
-        if (playerObj != null) {
+        if (playerObj != null)
+        {
             Vector2 rayDetection = player.position - self.position;
             float rayDetectionRadius = rayDetection.magnitude;
             RaycastHit2D hit = Physics2D.Raycast(self.position, rayDetection, rayDetectionRadius, obstacleMask);
@@ -34,13 +36,24 @@ public class CheckInRange : BehaviorTree.Node
 
             if (hit)
             {
+                SetUpperMostParentData("IsAttacking", false);
                 return NodeState.FAILURE;
             }
-            else {
-                SetUpperMostParentData("Chase", true);
+            else
+            {
+                SetUpperMostParentData("Patrolling", false);
                 return NodeState.SUCCESS;
             }
 
+        }
+        else {
+            if (!(bool)GetData("Patrolling"))
+            {
+                Transform spawn = ((GameObject)GetData("SpawnPoint"))?.transform;
+                AIDestinationSetter aiDest = ((AIDestinationSetter)GetData("AIDest"));
+                if (aiDest is not null) aiDest.target = spawn;
+            }
+            
         }
         return NodeState.FAILURE;
     }

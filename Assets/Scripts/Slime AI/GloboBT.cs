@@ -32,6 +32,7 @@ public class GloboBT : BehaviorTree.Tree
         wrapper.SetData("DashTime", DashTime);
         wrapper.SetData("AttackCooldown", AttackCooldown);
         wrapper.SetData("IsAttacking", false);
+        wrapper.SetData("Patrolling", true);
         wrapper.child = new Selector(new List<Node> {
             new Sequence(new List<Node>{ 
                 new CheckAttackRange(wrapper),

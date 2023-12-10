@@ -21,6 +21,7 @@ public class CheckAttackRange : BehaviorTree.Node
         if (player) {
             return NodeState.SUCCESS;
         }
+        SetUpperMostParentData("IsAttacking", false);
         return NodeState.FAILURE;
     }
 }
