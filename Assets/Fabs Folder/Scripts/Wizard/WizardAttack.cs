@@ -72,14 +72,7 @@ public class WizardAttack : BehaviorTree.Node
     private void Shoot() {
         isAttacking = true;
         onCooldown = true;
-        Vector3 dir = target.position - self.position;
         SpawnManager sm = SpawnManager.Instance;
-        GameObject fireball = sm.SpawnFireball();
-        fireball.transform.position = self.position;
-        Rigidbody2D rb = fireball.GetComponent<Rigidbody2D>();
-        rb.velocity = new Vector2(dir.normalized.x * 15.0f, dir.normalized.y * 15.0f);
-        Fireball fb = fireball.GetComponent<Fireball>();
-        fb.target = target.position;
-        
+        sm.SpawnFireball(self, target);
     }
 }
