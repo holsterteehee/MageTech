@@ -87,7 +87,7 @@ public class MenuController : MonoBehaviour
     public void NewGameDialogYes()
     {
         DataPersistenceManager.instance.NewGame();
-        SceneManager.LoadScene("Start");
+        SceneManager.LoadScene("Village");
     }
 
     public void LoadGameDialogYes()
