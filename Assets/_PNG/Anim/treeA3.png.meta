@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -113,12 +113,12 @@ TextureImporter:
       name: W_witch_idle 1_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 320
-        width: 27
-        height: 44
+        x: 15
+        y: 268
+        width: 79
+        height: 102
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -134,12 +134,12 @@ TextureImporter:
       name: W_witch_idle 1_1
       rect:
         serializedVersion: 2
-        x: 8
-        y: 256
-        width: 29
-        height: 44
+        x: 104
+        y: 267
+        width: 78
+        height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -155,12 +155,12 @@ TextureImporter:
       name: W_witch_idle 1_2
       rect:
         serializedVersion: 2
-        x: 9
-        y: 192
-        width: 29
-        height: 47
+        x: 198
+        y: 264
+        width: 78
+        height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -176,12 +176,12 @@ TextureImporter:
       name: W_witch_idle 1_3
       rect:
         serializedVersion: 2
-        x: 9
-        y: 128
-        width: 28
-        height: 47
+        x: 290
+        y: 262
+        width: 82
+        height: 116
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -197,12 +197,12 @@ TextureImporter:
       name: W_witch_idle 1_4
       rect:
         serializedVersion: 2
-        x: 9
-        y: 64
-        width: 29
-        height: 46
+        x: 8
+        y: 130
+        width: 87
+        height: 113
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -218,12 +218,12 @@ TextureImporter:
       name: W_witch_idle 1_5
       rect:
         serializedVersion: 2
-        x: 10
-        y: 0
-        width: 28
-        height: 45
+        x: 105
+        y: 139
+        width: 83
+        height: 107
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
