@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: W_witch_idle 1_0
+      name: Odderf-Idle-Sheet_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 320
-        width: 27
-        height: 44
+        x: 0
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce1ea82d9a217924eb05b3b6ed005ad3
-      internalID: 828009469
+      spriteID: e1836312f4aad864f9012ef70e5b17ca
+      internalID: 1627192770
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: W_witch_idle 1_1
+      name: Odderf-Idle-Sheet_1
       rect:
         serializedVersion: 2
-        x: 8
-        y: 256
-        width: 29
-        height: 44
+        x: 16
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88a1771862823fb42840f4766a41b0cb
-      internalID: 1120098754
+      spriteID: 7bc1bd0cd74399f48abece19a6b02d6f
+      internalID: -761630220
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: W_witch_idle 1_2
+      name: Odderf-Idle-Sheet_2
       rect:
         serializedVersion: 2
-        x: 9
-        y: 192
-        width: 29
-        height: 47
+        x: 32
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5bf911c304f20b54bb1f45f519634b98
-      internalID: 1975072735
+      spriteID: 12909241dbdea074ebfa0fd0f6ce0494
+      internalID: -1840408455
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: W_witch_idle 1_3
+      name: Odderf-Idle-Sheet_3
       rect:
         serializedVersion: 2
-        x: 9
-        y: 128
-        width: 28
-        height: 47
+        x: 48
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +187,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: acf92fd4f82eb1c4c8448efd94260255
-      internalID: 150496744
+      spriteID: f275713e1e9df1741956200cc09e72c2
+      internalID: -538722685
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: W_witch_idle 1_4
+      name: Odderf-Idle-Sheet_4
       rect:
         serializedVersion: 2
-        x: 9
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c146431feed39eb43bb7eee40ff17085
+      internalID: 1781131365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf-Idle-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee0c683717d6484b9a05bca6802d9cd
+      internalID: 1905219745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf-Idle-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 64
-        width: 29
-        height: 46
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +250,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccc17841308d19749b0ae9da1af41734
-      internalID: -285589949
+      spriteID: 4b8fc891b8961284aa6b0203b31fa0ab
+      internalID: 895522702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: W_witch_idle 1_5
+      name: Odderf-Idle-Sheet_7
       rect:
         serializedVersion: 2
-        x: 10
-        y: 0
-        width: 28
-        height: 45
+        x: 16
+        y: 64
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,8 +271,344 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69dd2e4f961df274e9357a31259bf1b7
-      internalID: 1817479747
+      spriteID: 256e4da1e246a2f449fb9c1e7511fd01
+      internalID: -315245193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf-Idle-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7540416908fb89c4a9090706c7553059
+      internalID: -493132275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf-Idle-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e56f11153f451f45a9b1bfec228b5f0
+      internalID: 60061903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf-Idle-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5813efddd17eb4d958c1c4bfb9e221
+      internalID: 428470044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf-Idle-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8f9b0ac13602b49b67c40089910acc
+      internalID: -1618639785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf-Idle-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894578b6ff2ab954a973d8ac08d732c6
+      internalID: -940829299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf-Idle-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de7f65e726c8a641bea157060664b65
+      internalID: -2016556414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf-Idle-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405b0dfd4b33f82499946e9eebd63883
+      internalID: 1856393339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf-Idle-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446d750d01e0480469ca5ef3790123c5
+      internalID: -1317534451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf-Idle-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79c557405d812d4582fb1db4504db48
+      internalID: -334440149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf-Idle-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f047b335f9121944ae096c4e9f6f9b5
+      internalID: -591815622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf-Idle-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f2d97f7d35a844cabf278f6acd31f6
+      internalID: 863577200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf-Idle-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5608030ffc08e149aab2f16fd021e95
+      internalID: 716936526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf-Idle-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b8f441f92d08742a19aa3d90834da8
+      internalID: -2028260966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf-Idle-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7a5e655a7b2ba4c95eb3afcb4074f5
+      internalID: -79612236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf-Idle-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d1efc46a9ceab45a2148d171ce862f
+      internalID: -1410500008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf-Idle-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc639c0204c39c4a8e6a34d6dfb1b07
+      internalID: 1844349786
       vertices: []
       indices: 
       edges: []
@@ -246,12 +624,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      W_witch_idle 1_0: 828009469
-      W_witch_idle 1_1: 1120098754
-      W_witch_idle 1_2: 1975072735
-      W_witch_idle 1_3: 150496744
-      W_witch_idle 1_4: -285589949
-      W_witch_idle 1_5: 1817479747
+      Odderf-Idle-Sheet_0: 1627192770
+      Odderf-Idle-Sheet_1: -761630220
+      Odderf-Idle-Sheet_10: 428470044
+      Odderf-Idle-Sheet_11: -1618639785
+      Odderf-Idle-Sheet_12: -940829299
+      Odderf-Idle-Sheet_13: -2016556414
+      Odderf-Idle-Sheet_14: 1856393339
+      Odderf-Idle-Sheet_15: -1317534451
+      Odderf-Idle-Sheet_16: -334440149
+      Odderf-Idle-Sheet_17: -591815622
+      Odderf-Idle-Sheet_18: 863577200
+      Odderf-Idle-Sheet_19: 716936526
+      Odderf-Idle-Sheet_2: -1840408455
+      Odderf-Idle-Sheet_20: -2028260966
+      Odderf-Idle-Sheet_21: -79612236
+      Odderf-Idle-Sheet_22: -1410500008
+      Odderf-Idle-Sheet_23: 1844349786
+      Odderf-Idle-Sheet_3: -538722685
+      Odderf-Idle-Sheet_4: 1781131365
+      Odderf-Idle-Sheet_5: 1905219745
+      Odderf-Idle-Sheet_6: 895522702
+      Odderf-Idle-Sheet_7: -315245193
+      Odderf-Idle-Sheet_8: -493132275
+      Odderf-Idle-Sheet_9: 60061903
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
