@@ -2485,7 +2485,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: Village
-  sceneTransitionName: East_Entrance
+  sceneTransitionName: Village_Cave_01
 --- !u!4 &4018394964845926314
 Transform:
   m_ObjectHideFlags: 0
@@ -2575,7 +2575,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82ccdafacee97ff4db8fcb03c4afc041, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  transitionName: West_Entrance
+  transitionName: Cave_01
 --- !u!4 &8724713001745547037
 Transform:
   m_ObjectHideFlags: 0
