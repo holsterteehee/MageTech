@@ -365,6 +365,9 @@ GameObject:
   - component: {fileID: 520674500228016768}
   - component: {fileID: 3960059382873952402}
   - component: {fileID: 5486099867393432621}
+  - component: {fileID: 787395891286519102}
+  - component: {fileID: 4343573885099032668}
+  - component: {fileID: -1041966423756660684}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -506,9 +509,9 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.0001
+  m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0
+  m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -519,7 +522,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 1
+  m_CollisionDetection: 0
   m_Constraints: 4
 --- !u!61 &520674500228016768
 BoxCollider2D:
@@ -528,7 +531,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7557863401528682108}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -550,10 +553,10 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.012078285, y: -1.1415577}
+  m_Offset: {x: 0.012078285, y: -0.13077354}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -564,7 +567,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.533432, y: 0.23494339}
+  m_Size: {x: 0.533432, y: 2.2565117}
   m_EdgeRadius: 0
 --- !u!70 &3960059382873952402
 CapsuleCollider2D:
@@ -617,6 +620,50 @@ MonoBehaviour:
   dashSpeed: 4
   myTrailRenderer: {fileID: 5706041025060063420}
   weaponCollider: {fileID: 6430097652510580618}
+--- !u!114 &787395891286519102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7557863401528682108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ca2828c03ec954418791a30a25ec318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBT: {fileID: 0}
+  knockBackTime: 0.2
+--- !u!114 &4343573885099032668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7557863401528682108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8276ec9dbae2fbc4ba5de086c6333051, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whiteFlashMat: {fileID: 2100000, guid: 510f287b53798704fbee6c836b57cc65, type: 2}
+  restoreDefaultMatTime: 0.2
+--- !u!114 &-1041966423756660684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7557863401528682108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae6aa3b296447f7468ebb8193ea6eb74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Health: 0
+  MaxHealth: 10
+  knockBackThrust: 15
+  deathVFXPrefab: {fileID: 0}
 --- !u!1 &7882623100861762808
 GameObject:
   m_ObjectHideFlags: 0

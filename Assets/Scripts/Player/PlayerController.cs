@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.SceneManagement;
 using UnityEngine;
 
 public class PlayerController : Singleton<PlayerController>
@@ -20,11 +21,11 @@ public class PlayerController : Singleton<PlayerController>
 
     private bool facingLeft = false;
     private bool isDashing = false;
-
+    private Knockback knockback;
     protected override void Awake()
     {
         base.Awake();
-
+        knockback = gameObject.GetComponent<Knockback>();
         playerControls = new PlayerControls();
         rb = GetComponent<Rigidbody2D>();
         myAnimator = GetComponent<Animator>();
