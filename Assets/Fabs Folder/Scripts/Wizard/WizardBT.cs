@@ -42,6 +42,10 @@ public class WizardBT : BehaviorTree.Tree
 
         wrapper.child = new Selector(new List<Node>{ 
             new Sequence(new List<Node> { 
+                new CheckAttackRange(wrapper),
+                new WizardAttack(wrapper),
+            }),
+            new Sequence(new List<Node> { 
                 new CheckInRange(wrapper),
                 new ChaseTarget(wrapper),
             }),
