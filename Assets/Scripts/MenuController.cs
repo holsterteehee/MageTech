@@ -38,8 +38,8 @@ public class MenuController : MonoBehaviour
     [SerializeField] private GameObject confirmationPrompt = null;
 
     [Header("Start To Load")]
-    public string _newGameLevel;
-    private string levelToLoad;
+    public string _newGame;
+    private string StartToLoad;
     [SerializeField] private GameObject noSavedGameDialog = null;
 
     [Header("Resolution Dropdowns")]
