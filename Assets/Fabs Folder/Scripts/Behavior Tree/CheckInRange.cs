@@ -47,7 +47,8 @@ public class CheckInRange : BehaviorTree.Node
 
         }
         else {
-            if (!(bool)GetData("Patrolling"))
+            object patrolling = GetData("Patrolling");
+            if (patrolling is not null && !(bool)patrolling)
             {
                 Transform spawn = ((GameObject)GetData("SpawnPoint"))?.transform;
                 AIDestinationSetter aiDest = ((AIDestinationSetter)GetData("AIDest"));
