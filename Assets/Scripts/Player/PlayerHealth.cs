@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
-
+    public Transform respawnPoint;
     public int Health;
     public int MaxHealth;
     private Knockback knockback;
@@ -51,13 +51,27 @@ public class PlayerHealth : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         if (bc) bc.enabled = true;
     }
-
+    
     public void DetectDeath()
     {
         if (Health <= 0)
         {
             //Instantiate(deathVFXPrefab, transform.position, Quaternion.identity);
-            Destroy(gameObject);
+           Respawn();
+        }
+    }
+
+    public void Respawn()
+    {
+        if (respawnPoint != null)
+        {
+            transform.position = respawnPoint.position;
+            Health = MaxHealth;
+        }
+        else
+        {
+            print("Respawn not set.");
+            //Debug.LogError("Respawn point not assigned to Damageable script.");
         }
     }
 }
