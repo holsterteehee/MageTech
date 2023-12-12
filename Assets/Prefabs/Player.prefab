@@ -660,7 +660,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae6aa3b296447f7468ebb8193ea6eb74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: 0
+  respawnPoint: {fileID: 0}
+  Health: 10
   MaxHealth: 10
   knockBackThrust: 15
   deathVFXPrefab: {fileID: 0}
