@@ -8,7 +8,7 @@ public class KeyBinds : MonoBehaviour
 {
      private Dictionary<string, KeyCode> keys = new Dictionary<string, KeyCode>();
 
-    public Text up, down, left, right, fire, reload;
+    public Text up, down, left, right, Dash, Interact, Talk, Attack, Weapon_1, Weapon_2, Weapon_3, Weapon_4, Weapon_5;
 
     private GameObject currentKey;
 
@@ -22,15 +22,31 @@ public class KeyBinds : MonoBehaviour
         keys.Add("Down", (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("Down", "S")));
         keys.Add("Left", (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("Left", "A")));
         keys.Add("Right", (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("Right", "D")));
-        keys.Add("Fire", (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("Fire", "Space")));
-        keys.Add("Reload", (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("Reload", "R")));
-
+        keys.Add("Dash", (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("Dash", "Space")));
+        keys.Add("Interact", (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("Interact", "E")));
+        keys.Add("Talk", (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("Talk", "Mouse 1")));
+        keys.Add("Attack", (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("Attack", "Mouse 2")));
+        keys.Add("Weapon_1", (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("Weapon_1", "1")));
+        keys.Add("Weapon_2", (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("Weapon_2", "2")));
+        keys.Add("Weapon_3", (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("Weapon_3", "3")));
+        keys.Add("Weapon_4", (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("Weapon_4", "4")));
+        keys.Add("Weapon_5", (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("Weapon_5", "5")));
+    
         up.text = keys["Up"].ToString();
         down.text = keys["Down"].ToString();
         left.text = keys["Left"].ToString();
         right.text = keys["Right"].ToString();
-        fire.text = keys["Fire"].ToString();
-        reload.text = keys["Reload"].ToString();
+        Dash.text = keys["Dash"].ToString();
+        Interact.text = keys["Interact"].ToString();
+        Talk.text = keys["Talk"].ToString();
+        Attack.text = keys["Attack"].ToString();
+        Weapon_1.text = keys["Weapon_1"].ToString();
+        Weapon_2.text = keys["Weapon_2"].ToString();
+        Weapon_3.text = keys["Weapon_3"].ToString();
+        Weapon_4.text = keys["Weapon_4"].ToString();
+        Weapon_5.text = keys["Weapon_5"].ToString();
+    
+
 
     }
 
@@ -52,13 +68,41 @@ public class KeyBinds : MonoBehaviour
         {
             Debug.Log("Right");
         }
-        if (Input.GetKeyDown(keys["Fire"]))
+        if (Input.GetKeyDown(keys["Dash"]))
         {
-            Debug.Log("Fire");
+            Debug.Log("Dash");
         }
-        if (Input.GetKeyDown(keys["Reload"]))
+        if (Input.GetKeyDown(keys["Interact"]))
         {
-            Debug.Log("Reload");
+            Debug.Log("Interact");
+        }
+        if (Input.GetKeyDown(keys["Talk"]))
+        {
+            Debug.Log("Talk");
+        }
+        if (Input.GetKeyDown(keys["Attack"]))
+        {
+            Debug.Log("Attack");
+        }
+        if (Input.GetKeyDown(keys["Weapon_1"]))
+        {
+            Debug.Log("Weapon_1");
+        }
+        if (Input.GetKeyDown(keys["Weapon_2"]))
+        {
+            Debug.Log("Weapon_2");
+        }
+        if (Input.GetKeyDown(keys["Weapon_3"]))
+        {
+            Debug.Log("Weapon_3");
+        }
+        if (Input.GetKeyDown(keys["Weapon_4"]))
+        {
+            Debug.Log("Weapon_4");
+        }
+        if (Input.GetKeyDown(keys["Weapon_5"]))
+        {
+            Debug.Log("Weapon_5");
         }
     }
     void OnGUI()
