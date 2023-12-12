@@ -317,5 +317,5 @@ MonoBehaviour:
     m_Bits: 128
   RoamDistance: 4
   DetectionRange: 14
-  AttackRange: 10
-  AttackCooldown: 10
+  AttackRange: 50
+  AttackCooldown: 2
